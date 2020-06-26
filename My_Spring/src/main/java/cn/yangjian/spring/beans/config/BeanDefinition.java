@@ -4,6 +4,7 @@ import cn.yangjian.spring.enums.ConfigurableBeanFactory;
 
 import java.util.List;
 
+//bean_definition接口
 public interface BeanDefinition {
 
     String SCOPE_SINGLETON = ConfigurableBeanFactory.SCOPE_SINGLETON.getBeanScope();
