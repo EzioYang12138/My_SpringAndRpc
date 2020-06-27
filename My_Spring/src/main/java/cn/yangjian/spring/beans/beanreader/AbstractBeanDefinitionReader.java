@@ -1,4 +1,4 @@
-package cn.yangjian.spring.io.reader;
+package cn.yangjian.spring.beans.beanreader;
 
 import cn.yangjian.spring.beans.factory.support.BeanDefinitionRegistry;
 import cn.yangjian.spring.io.loader.ResourceLoader;

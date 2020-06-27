@@ -1,4 +1,4 @@
-package cn.yangjian.spring.beans.config;
+package cn.yangjian.spring.beans.beandefinition;
 
 public class DefaultBeanDefinition extends AbstractBeanDefinition {
 

@@ -1,6 +1,6 @@
 package cn.yangjian.spring.beans.factory;
 
-import cn.yangjian.spring.beans.config.BeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.BeanDefinition;
 import cn.yangjian.spring.exception.BeansException;
 import cn.yangjian.spring.exception.NoSuchBeanDefinitionException;
 

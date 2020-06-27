@@ -1,4 +1,4 @@
-package cn.yangjian.spring.beans.config;
+package cn.yangjian.spring.beans.beandefinition;
 
 import cn.yangjian.spring.enums.ConfigurableBeanFactory;
 

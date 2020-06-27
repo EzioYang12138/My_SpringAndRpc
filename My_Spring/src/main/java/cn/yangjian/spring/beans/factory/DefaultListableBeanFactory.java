@@ -1,12 +1,12 @@
 package cn.yangjian.spring.beans.factory;
 
-import cn.yangjian.spring.beans.config.BeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.BeanDefinition;
 import cn.yangjian.spring.beans.factory.support.BeanDefinitionRegistry;
 import cn.yangjian.spring.enums.BasicType;
 import cn.yangjian.spring.exception.CircularDependException;
 import cn.yangjian.spring.exception.NoSuchBeanDefinitionException;
 import cn.yangjian.spring.exception.XmlConfigurationErrorException;
-import cn.yangjian.spring.io.reader.XmlBeanDefinitionReader;
+import cn.yangjian.spring.beans.beanreader.XmlBeanDefinitionReader;
 import cn.yangjian.spring.io.resource.FileSystemResource;
 import cn.yangjian.spring.io.resource.Resource;
 import org.apache.log4j.PropertyConfigurator;

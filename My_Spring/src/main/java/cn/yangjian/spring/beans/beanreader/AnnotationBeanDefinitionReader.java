@@ -1,7 +1,7 @@
-package cn.yangjian.spring.io.reader;
+package cn.yangjian.spring.beans.beanreader;
 
-import cn.yangjian.spring.beans.config.BeanDefinition;
-import cn.yangjian.spring.beans.config.DefaultBeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.BeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.DefaultBeanDefinition;
 import cn.yangjian.spring.beans.factory.support.BeanDefinitionRegistry;
 import cn.yangjian.spring.beans.factory.support.XmlParser;
 import cn.yangjian.spring.io.resource.Resource;

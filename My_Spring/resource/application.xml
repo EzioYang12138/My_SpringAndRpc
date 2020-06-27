@@ -1,0 +1,32 @@
+
+<!-- 当xml和注解中的bean配置出现重复的时候，默认选择使用xml中的bean配置，也就是说注解中的配置
+无效 -->
+<beans>
+    <bean id="beana"  class="cn.yangjian.test.bean.BeanA">
+    <!-- ref应用注入bean -->
+        <property ref="people"/>
+        <property ref="food"/>
+    </bean>
+
+    <bean id="aspectbeana" class="cn.yangjian.test.aop.AspectJBeanA"/>
+    <bean id="DefaultProxyObject" class="cn.yangjian.spring.aop.DefaultProxyObject"/>
+
+     <bean id="people" class="cn.yangjian.test.bean.testclass.People">
+         <property ref="food"/>
+     </bean>
+
+     <bean id="food" class="cn.yangjian.test.bean.testclass.Food">
+         <!-- 注入基本的类型的xml配置方法 ,需要配置三个属性:
+              1. field的name，
+              2. 需要注入的属性类型，（填写包装类型）
+              3. 需要注入的value
+         -->
+         <property name="foodName" type="java.lang.String" value="西红柿"/>
+         <property name="number" type="java.lang.Integer" value="100"/>
+
+     </bean>
+
+    <!-- 将会自动扫描该包下所有注解的bean -->
+    <package-scan packagename="cn.yangjian.test.bean"/>
+
+</beans>

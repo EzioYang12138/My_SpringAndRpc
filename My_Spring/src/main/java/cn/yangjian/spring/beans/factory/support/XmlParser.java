@@ -1,7 +1,7 @@
 package cn.yangjian.spring.beans.factory.support;
 
-import cn.yangjian.spring.beans.config.BeanDefinition;
-import cn.yangjian.spring.beans.config.DefaultBeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.BeanDefinition;
+import cn.yangjian.spring.beans.beandefinition.DefaultBeanDefinition;
 import cn.yangjian.spring.exception.XmlConfigurationErrorException;
 import cn.yangjian.spring.util.Assert;
 import org.jdom.Document;
